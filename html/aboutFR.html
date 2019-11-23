@@ -1,0 +1,42 @@
+<!-- Wrapper -->
+<aside>
+  <p>Nous aimerions avoir de vos nouvelles! </p>
+  <p>Veuillez utiliser le <b><em>Formulaire de Contact</em></b> pour nous envoyer un message.</p>
+</aside>
+
+<form method="POST" class="gform pure-form pure-form-stacked" data-email="info@sincar.net"
+  action="https://script.google.com/macros/s/AKfycbzO5dniVsff1hwa9_IC0968wDsF45JvH7Pq0n-9D6M5aUFNLN5r/exec">
+
+  <div align="center" class="form-elements">
+    <fieldset class="pure-group">
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="Your Name" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="10" placeholder="Tell us what's on your mind..."></textarea>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
+    </fieldset>
+
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Envoyer</button>
+  </div>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2 align="center">
+      Merci de nous avoir contacté!
+      Nous reviendrons vers vous bientôt!
+    </h2>
+  </div>
+
+
+</form>
+
+<!-- Submit the Form to Google Using "AJAX" -->
+<script data-cfasync="false" src="assets/js/form-submission-handler.js"></script>

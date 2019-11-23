@@ -1,0 +1,102 @@
+{
+    "index": {
+        "en": {
+            "title": "Kurdish Legend",
+            "menu": "HOME PAGE"
+        },
+        "fr": {
+            "title": "Histoire de Kurde",
+            "menu": "Page d'accueil "
+        },
+        "tr": {
+            "title": "Kürt'lerin Destanlari",
+            "menu": "Ana Sayfa"
+        }
+    },
+    "about": {
+        "en": {
+            "title": "Contact Us",
+            "menu": "CONTACT US"
+        },
+        "fr": {
+            "title": "Contactez-Nous",
+            "menu": "CONTACEZ-NOUS"
+        },
+        "tr": {
+            "title": "Iletisim",
+            "menu": "BIZIMLE ILETISIME GECIN"
+        }
+    },
+    "languages": {
+        "en": {
+            "menu": "Language"
+        },
+        "fr": {
+            "menu": "Sélection de la langues"
+        },
+        "tr": {
+            "menu": "Dil Seçimi"
+        },
+        "submenu": [
+            "English",
+            "Français",
+            "Türkçe"
+        ]
+    },
+    "memuzin": {
+        "en": {
+            "title": "Kurdish Legend - Mem u Zin",
+            "menu": ""
+        },
+        "fr": {
+            "title": "Histoire de Kurde - Mem u Zin",
+            "menu": ""
+        },
+        "tr": {
+            "title": "Kürt'lerin Destanlari - Mem u Zin",
+            "menu": ""
+        }
+    },
+    "kawa": {
+        "en": {
+            "title": "Kurdish Legend - BlackSmith Kawa",
+            "menu": ""
+        },
+        "fr": {
+            "title": "Histoire de Kurde - Kawa le Forgeron",
+            "menu": ""
+        },
+        "tr": {
+            "title": "Kürt'lerin Destanlari - Demirci Kawa",
+            "menu": ""
+        }
+    },
+    "kawa2": {
+        "en": {
+            "title": "Kurdish Legend - BlackSmith Kawa",
+            "menu": ""
+        },
+        "fr": {
+            "title": "Histoire de Kurde - Kawa le Forgeron",
+            "menu": ""
+        },
+        "tr": {
+            "title": "Kürt'lerin Destanlari - Demirci Kawa",
+            "menu": ""
+        }
+    },
+    "kawa3": {
+        "en": {
+            "title": "Kurdish Legend - BlackSmith Kawa",
+            "menu": ""
+        },
+        "fr": {
+            "title": "Histoire de Kurde - Kawa le Forgeron",
+            "menu": ""
+        },
+        "tr": {
+            "title": "Kürt'lerin Destanlari - Demirci Kawa",
+            "menu": ""
+        }
+    }
+}
