@@ -43,6 +43,22 @@
             "Türkçe"
         ]
     },
+    "version": {
+        "en": {
+            "menu": "Version"
+        },
+        "fr": {
+            "menu": "Version"
+        },
+        "tr": {
+            "menu": "Version"
+        },
+        "submenu": [
+            "Version 1",
+            "Version 2",
+            "Version 3"
+        ]
+    },
     "memuzin": {
         "en": {
             "title": "Kurdish Legend - Mem u Zin",

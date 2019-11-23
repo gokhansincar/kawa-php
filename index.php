@@ -15,8 +15,7 @@ Kurdish Legends
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
@@ -63,9 +62,9 @@ Kurdish Legends
 				<?php if($page == "kawa" || $page ==  "kawa2" || $page == "kawa3") { 
 				echo '<li class="parent version"><a id="version" href="#">Version</a>
 					<ul class="sub-menu">
-						<li><a href="?page=<?php echo $page; ?>&lang=fr&version=1">Version 1</a></li>
-						<li><a href="?page=<?php echo $page; ?>&lang=fr&version=2">Version 2</a></li>
-						<li><a href="?page=<?php echo $page; ?>&lang=fr&version=3">Version 3</a></li>
+						<li><a href="?page=<?php echo $page; ?>&lang=&version=1">Version 1</a></li>
+						<li><a href="?page=<?php echo $page; ?>&lang=&version=2">Version 2</a></li>
+						<li><a href="?page=<?php echo $page; ?>&lang=&version=3">Version 3</a></li>
 					</ul>';
 				} ?>
 				<li class="parent language"><a id="language" href="#">Language</a>
@@ -92,19 +91,19 @@ Kurdish Legends
 				<footer class="wrapper style1 align-center">
 					<div class="inner">
 						<ul class="icons">
-							<li align="center"><a href="https://www.facebook.com/saperiorapa"
+							<li "><a href="https://www.facebook.com/saperiorapa"
 									class="fa fa-facebook"></a></li>
-							<li align="center"><a href="https://twitter.com/saperiorapa" class="fa fa-twitter"></a></a>
+							<li "><a href="https://twitter.com/saperiorapa" class="fa fa-twitter"></a></a>
 							</li>
-							<li align="center"><a href="https://www.instagram.com/saperiorapa"
+							<li "><a href="https://www.instagram.com/saperiorapa"
 									class="fa fa-instagram"></a></li>
-							<li align="center"><a href="https://www.linkedin.com/in/g%C3%B6khan-sincar-20443b179/"
+							<li "><a href="https://www.linkedin.com/in/g%C3%B6khan-sincar-20443b179/"
 									class="fa fa-linkedin"></a></li>
-							<li align="center"><a href="https://github.com/gokhansincar" class="fa fa-github"></a></li>
-							<li align="center"><a href="mailto:gokhan.sincar@powercoders.org"
+							<li "><a href="https://github.com/gokhansincar" class="fa fa-github"></a></li>
+							<li "><a href="mailto:gokhan.sincar@powercoders.org"
 									class="fa fa-envelope"></a></li>
 						</ul>
-						<p align="center">&copy; <?php echo date("Y"); ?> <strong>Sincar</strong></p>
+						<p align="center">&copy; 2019 - <?php echo date("Y"); ?> <strong>Sincar</strong></p>
 					</div>
 				</footer>
 
