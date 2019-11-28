@@ -1,30 +1,36 @@
 {
     "index": {
         "en": {
-            "title": "Kurdish Legend",
-            "menu": "HOME PAGE"
+            "title": "Kurdish Legends",
+            "menu": "HOME PAGE",
+            "h1": "Kurdish Historical Legends "
         },
         "fr": {
             "title": "Histoire de Kurde",
-            "menu": "Page d'accueil "
+            "menu": "Page d'accueil ",
+            "h1": "Kurdish Historical Legends "
         },
         "tr": {
             "title": "Kürt'lerin Destanlari",
-            "menu": "Ana Sayfa"
+            "menu": "Ana Sayfa",
+            "h1": "Kürt Tarihi ve Destanlari"
         }
     },
     "about": {
         "en": {
             "title": "Contact Us",
-            "menu": "CONTACT US"
+            "menu": "CONTACT US",
+            "h1": "Kurdish Historical Legends "
         },
         "fr": {
             "title": "Contactez-Nous",
-            "menu": "CONTACEZ-NOUS"
+            "menu": "CONTACEZ-NOUS",
+            "h1": "Kurdish Historical Legends "
         },
         "tr": {
             "title": "Iletisim",
-            "menu": "BIZIMLE ILETISIME GECIN"
+            "menu": "BIZIMLE ILETISIME GECIN",
+            "h1": "Kürt Tarihi ve Destanlari"
         }
     },
     "languages": {
@@ -62,57 +68,69 @@
     "memuzin": {
         "en": {
             "title": "Kurdish Legend - Mem u Zin",
-            "menu": ""
+            "menu": "",
+            "h1": "Kurdish Historical Legends - Mem u Zin"
         },
         "fr": {
             "title": "Histoire de Kurde - Mem u Zin",
-            "menu": ""
+            "menu": "",
+            "h1": "Histoire de Kurde - Mem u Zin"
         },
         "tr": {
             "title": "Kürt'lerin Destanlari - Mem u Zin",
-            "menu": ""
+            "menu": "",
+            "h1": "Kürt Tarihi ve Destanlari - Mem u Zin"
         }
     },
     "kawa": {
         "en": {
             "title": "Kurdish Legend - BlackSmith Kawa",
-            "menu": ""
+            "menu": "",
+            "h1": "Kurdish Historical Legends - BlackSmith Kawa "
         },
         "fr": {
             "title": "Histoire de Kurde - Kawa le Forgeron",
-            "menu": ""
+            "menu": "",
+            "h1": "Histoire de Kurde - Kawa le Forgeron"
         },
         "tr": {
             "title": "Kürt'lerin Destanlari - Demirci Kawa",
-            "menu": ""
+            "menu": "",
+            "h1": "Kürt Tarihi ve Destanlari - Demirci Kawa"
         }
     },
     "kawa2": {
         "en": {
             "title": "Kurdish Legend - BlackSmith Kawa",
-            "menu": ""
+            "menu": "",
+            "h1": "Kurdish Historical Legends - BlackSmith Kawa"
         },
         "fr": {
             "title": "Histoire de Kurde - Kawa le Forgeron",
-            "menu": ""
+            "menu": "",
+            "h1": "Histoire de Kurde - Kawa le Forgeron "
         },
         "tr": {
             "title": "Kürt'lerin Destanlari - Demirci Kawa",
-            "menu": ""
+            "menu": "",
+            "h1": "Kürt Tarihi ve Destanlari - Demirci Kawa"
         }
     },
     "kawa3": {
         "en": {
             "title": "Kurdish Legend - BlackSmith Kawa",
-            "menu": ""
+            "menu": "",
+            "h1": "Kurdish Historical Legends - BlackSmith Kawa "
         },
         "fr": {
             "title": "Histoire de Kurde - Kawa le Forgeron",
-            "menu": ""
+            "menu": "",
+            "h1": "Histoire de Kurde - Kawa le Forgeron"
         },
         "tr": {
             "title": "Kürt'lerin Destanlari - Demirci Kawa",
-            "menu": ""
+            "menu": "",
+            "h1": "Kürt Tarihi ve Destanlari - Demirci Kawa"
         }
     }
 }

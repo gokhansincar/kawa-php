@@ -4,7 +4,7 @@ $explode_url = explode('/', $_SERVER['REQUEST_URI']);  // an array
 $page = array_pop($explode_url); 
 
  $page = (isset($_GET["page"]) ? $_GET["page"] : "index");
- $lang = (isset($_GET["lang"]) ? $_GET["lang"] : "");
+ $lang = (isset($_GET["lang"]) ? $_GET["lang"] : ""); // if no lang, we use english and it's files without extension lang
  $version = (isset($_GET["version"]) ? $_GET["version"] : null);
 
 /* SITE DATA

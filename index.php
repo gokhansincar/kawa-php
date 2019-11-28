@@ -45,7 +45,7 @@ Kurdish Legends
 	<header class="header-fixed" id="top-header">
 	
 		<figure id="logo" class="font700">
-			<img src="images/logo.png" alt="SiNCaR">
+			<a href="./"><img src="images/logo.png" alt="Kurdish Legends"></a>
 		</figure>
 	
 		<figure id="nav-triggers">
@@ -59,19 +59,19 @@ Kurdish Legends
 			<ul class="top-menu menu row">
 				<li><a href="?page=index&lang=<?php echo $lang; ?>">Home Page</a></li>
 				<li><a href="?page=about&lang=<?php echo $lang; ?>">Contact Us</a></li>
-				<?php if($page == "kawa" || $page ==  "kawa2" || $page == "kawa3") { 
-				echo '<li class="parent version"><a id="version" href="#">Version</a>
-					<ul class="sub-menu">
-						<li><a href="?page=<?php echo $page; ?>&lang=&version=1">Version 1</a></li>
-						<li><a href="?page=<?php echo $page; ?>&lang=&version=2">Version 2</a></li>
-						<li><a href="?page=<?php echo $page; ?>&lang=&version=3">Version 3</a></li>
-					</ul>';
+				<?php if($page == "kawa") { 
+				echo '<li class="parent version"><a id="version" href="#">Version</a>';
+				echo '<ul class="sub-menu">';
+					echo '<li><a href="?page='.$page.'&lang='.$lang.'&version=1">Version 1</a></li>';
+					echo '<li><a href="?page='.$page.'&lang='.$lang.'&version=2">Version 2</a></li>';
+					echo '<li><a href="?page='.$page.'&lang='.$lang.'&version=3">Version 3</a></li>';
+				echo '</ul>';
 				} ?>
 				<li class="parent language"><a id="language" href="#">Language</a>
 					<ul class="sub-menu" id="sub-menu">
-						<li><a href="?page=<?php echo $page; ?>&lang=fr">Francais</a></li>
-						<li><a href="?page=<?php echo $page; ?>">English</a></li>
-						<li><a href="?page=<?php echo $page; ?>&lang=tr">Türkçe</a></li>
+						<li><a href="?page=<?php echo $page; ?>&lang=fr&version=<?php echo $version; ?>">Francais</a></li>
+						<li><a href="?page=<?php echo $page; ?>&version=<?php echo $version; ?>">English</a></li>
+						<li><a href="?page=<?php echo $page; ?>&lang=tr&version=<?php echo $version; ?>">Türkçe</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -79,6 +79,8 @@ Kurdish Legends
 	
 	</header>
 	<main id="main" class="is-preload">
+				<h1 class="AC" >Kurdish Historical Legens & Stories</h1>
+
 	<?php
 		if($version){
 			include("html/".$page.$version.strtoupper($lang).".html");
@@ -103,7 +105,7 @@ Kurdish Legends
 							<li "><a href="mailto:gokhan.sincar@powercoders.org"
 									class="fa fa-envelope"></a></li>
 						</ul>
-						<p align="center">&copy; 2019 - <?php echo date("Y"); ?> <strong>Sincar</strong></p>
+						<p class="AC">&copy; 2019 - <?php echo date("Y"); ?> <strong>Sincar</strong></p>
 					</div>
 				</footer>
 
